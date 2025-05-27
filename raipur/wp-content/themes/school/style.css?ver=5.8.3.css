@@ -1,0 +1,318 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menu-navigation-container #menu-navigation .sub-menu .sub-menu{
+	    top:0px;
+    left:90%;
+    -webkit-transform: translateX(20px);
+    -moz-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    -o-transform: translateX(20px);
+    transform: translateX(20px);
+    box-shadow: 0 -1px #eee inset, 1px 0 #eee inset, 0 1px #eee inset;
+}
+
+.menu-navigation-container #menu-navigation .sub-menu {
+    min-width: 200px;
+}
+.menu-item.menu-item-has-children .sub-menu .menu-item.menu-item-has-children{
+	position:relative
+}
+.menu-navigation-container #menu-navigation .menu-item.menu-item-has-children .sub-menu .menu-item.menu-item-has-children > a:after {
+        content: "\f105";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+	    position: absolute;
+    top: 8px;
+    right: 6px;
+}
+.subtitle strong{
+	    background: #db802d;
+    display: inline-block;
+    color: #fff;
+    padding: 6px 17px;
+    font-size: 18px;
+    margin-top: 0;
+    border-bottom: 4px solid #f0cba8;
+    border-radius: 20px;
+}
+.list{
+	padding-left:0;
+	
+}
+.list li{
+	list-style-type:none;
+	position:relative;
+	padding-left: 20px;
+	margin-bottom:10px;
+}
+.list li:before{
+	 content: "\f058";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+	position:absolute;
+	    left: -1px;
+    top: 3px;
+    color: #3399ff;
+}
+.grid-news-thumb img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: contain;
+    object-position: top center;
+    border-radius: 0px !important;
+}
+#wpcf7-f513-p1238-o1 {
+    background: #74c9be;
+    padding: 20px 100px;
+	margin-bottom:15px;
+}
+#wpcf7-f513-p1238-o1 .wpcf7-form-control.wpcf7-textarea {
+    height: 100px;
+}
+.contact-us-info1 {
+    margin-top: 17%;
+}
+#wpcf7-f513-p1238-o1 label{
+	display:block;
+}
+.alumni-page{
+	max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    background: #eee;
+}
+.alumni-subtitle h2{
+    background: #1BA1E2;
+    color: #fff;
+    padding: 5px;
+	text-align:center;
+}
+.alumni-page h3 {
+    background: #db802d;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    padding: 3px 15px;
+}
+.alumni-page .form-group label{
+	font-weight:bold;
+}
+textarea.wpcf7-form-control.wpcf7-textarea.form-control {
+    height: 80px;
+}
+.pagination {
+    text-align: center;
+    padding: 0 0 15px 0;
+	display:block;
+	margin-top:10px;
+}
+.page-numbers.current {
+    background: #fff;
+    color: #004A8D;
+}
+.page-numbers {
+    display: inline-block;
+    margin: 0 2px;
+    background: #004A8D;
+    border: 1px solid #004A8D;
+    color: #FFF;
+    padding: 10px 14px;
+    line-height: 1;
+}
+.page-numbers:hover{
+	color:#fff;
+}
+.page-numbers.current:hover{
+	color:#004A8D;
+}
+.size-full{
+	width:100%;
+}
+.btn-vacancies{
+	white-space:nowrap;
+}
+.career-subtitle h2 {
+    color: #e95301;
+    font-size: 22px;
+    border-bottom: 1px solid #e95301;
+}
+.careerapply-page label {
+    margin-bottom: 0;
+	font-weight: 500;
+}
+#wpcf7-f6236-p6233-o1  {
+    background-color: #f9f9f9;
+    padding: 20px;
+	box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+}
+#wpcf7-f6236-p6233-o1 .wpcf7-form-control.wpcf7-select ,#wpcf7-f6236-p6233-o1 .wpcf7-form-control.wpcf7-text,#wpcf7-f6236-p6233-o1 .wpcf7-form-control.wpcf7-date ,#wpcf7-f6236-p6233-o1 .wpcf7-form-control.wpcf7-textarea ,#wpcf7-f6236-p6233-o1 .wpcf7-form-control.wpcf7-number{
+  
+    border: 1px solid #bbb9b9;
+}
+#wpcf7-f6236-p6233-o1 .radio-btn{
+margin-top:30px;	
+}
+span.wpcf7-form-control-wrap.classtitle .wpcf7-form-control{
+	width:80px;
+}
+label.control-label.title-label {
+    display: block;
+}
+input#candidate-name {
+    width: 251px;
+    display: inline-block;
+    margin-left: 5px;
+}
+sup.require-star {
+    color: #f00;
+    font-weight: bold;
+}
+.form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 360px;
+    height: 100px;
+}
+.comman-menu ul.menu .current-menu-item a {
+    background: #1BA1E2;
+    border-left: 4px solid #db802d;
+    color: #fff;
+    position: relative;
+}
+.comman-menu ul.menu .current-menu-item a:after {
+    border-color: transparent transparent transparent #1BA1E2;
+}
+.comman-menu ul.menu .current-menu-item a:hover {
+       background: #db802d;
+    border-left: 4px solid #1BA1E2;
+    color: #fff;
+}
+.comman-menu ul.menu .current-menu-item a:hover:after {
+    border-color: transparent transparent transparent #db802d;
+}
+.result-page .wp-block-table{
+	    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.result-page .wp-block-table td, .result-page .wp-block-table th {
+   
+    border: 2px solid #1E90FF; 
+}
+#slider_507 .sa_hover_container {
+   text-align:center;
+	position:relative;
+}
+.slider #slider_507  .sa_hover_container p {
+  position:relative;
+  display: inline-block;
+	width:auto!important;
+	    bottom: -655px !important;
+	top:auto;
+}
+#wpseo_meta {
+   display:none;
+}
+
+.pum-theme-13177, .pum-theme-default-theme {
+    background-color: rgba(0,0,0,0.7 );
+}
+#post-1474 .wp-block-image img{
+    box-shadow:none;
+    padding:0;
+    border:none;
+}
+
+@media (max-width: 576px) {
+	.news-inner .ctu-ultimate-style-heading-1 {
+    background-color: #ddd !important;
+    color: #424242;
+  
+}
+	.news-inner	.ctu-ultimate-style-heading-1.active {
+    background-color:#1BA1E2!important;
+    color: #fff;
+  
+}
+
+}
+
+
+.wp-block-image img{
+	-moz-box-shadow: inset 0 0 10px #acacac;
+    -webkit-box-shadow: inset 0 0 10px #acacac;
+    box-shadow: inset 0 0 10px #acacac;
+    padding:5px;
+    border: 2px solid #ff9c00;
+}
+button:focus {
+    outline: 1px dotted;
+    outline: none;
+}
+
+.right-header #menu-topright-menu li {
+    padding: 0 5px;
+}
+.wp-block-button__link {
+	color: #fff!important;
+}
+#wpcf7-f514-p19356-o1{
+background: #74c9be;
+   padding: 42px 100px 10px;
+    margin-bottom: 15px;	
+}
+.wpcf7-form-control {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+#wpcf7-f514-p19356-o1 label {
+     display:block; 
+ 
+}
+.wpcf7-form-control.wpcf7-textarea{
+height:100px;	
+}
+.contact-us-info1 ul > li {
+    padding: 15px 40px 8px 30px;
+}
+.post-19435 .wp-block-table td, .post-19435 .wp-block-table th ,.post-19439 .wp-block-table td, .post-19439 .wp-block-table th {
+ 
+    border:none;
+}
+.featured-box .featured-content-holder {
+    padding: 10px 10px 5px 15px;
+    color: #fff;
+}
+.featured-content-holder {
+    padding: 10px;
+    min-height: 133px;
+}
+.featured-content-holder a {
+  font-size:20px;
+	color:#fff;
+}
+.featured-box {
+    box-shadow: rgb(0 0 0 / 15%) 0px 5px 15px 0px;
+    background: #fff;
+    margin-bottom: 15px;
+	overflow:hidden;
+}
+.featured-content-holder p{
+	margin-bottom:0;
+	font-size: 15px;
+}
+.wp-block-image:not(.is-style-rounded) img {
+    border-radius: inherit;
+    width: 100%;
+    height: auto;
+}
+
+
